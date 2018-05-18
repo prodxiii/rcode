@@ -8,10 +8,6 @@ script provided with TM2 is implemented in ruby. Here is [aurora's](https://gith
 attempt to replace this ruby script with a shell script, because in some cases a ruby 
 installation might just be too much overhead for just editing remote files.
 
-The shell script needs to be copied to the server, you want to remote edit files, on.
-After that, open your TM2 preferences and enable "Allow rcode connections" setting in
-the "Terminal" settings and adjust the setting "Access for" according to your needs:
-
 This script is a modification of the original bash script created for 
 remote Textmate 2 which can be found at:
 [rmate](https://github.com/aurora/rmate)
