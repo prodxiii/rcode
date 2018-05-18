@@ -2,15 +2,19 @@
 
 ## Description
 
-Visual Studio Code adds a nice feature, where it is possible to edit files on a remote server
-using a helper script. The original helper script provided with TM2 is implemented in
-ruby. Here is my attempt to replace this ruby script with a shell script, because in
-some cases a ruby installation might just be too much overhead for just editing remote
-files.
+Visual Studio Code has an extension called [**Remote VSCode**](https://marketplace.visualstudio.com/items?itemName=rafaelmaiolla.remote-vscode) which allows Textmate 2 remote coding feature to be used 
+in VSCode. This is a helper script to be installed on the remote server. The original helper 
+script provided with TM2 is implemented in ruby. Here is [aurora's](https://github.com/aurora) 
+attempt to replace this ruby script with a shell script, because in some cases a ruby 
+installation might just be too much overhead for just editing remote files.
 
 The shell script needs to be copied to the server, you want to remote edit files, on.
 After that, open your TM2 preferences and enable "Allow rcode connections" setting in
 the "Terminal" settings and adjust the setting "Access for" according to your needs:
+
+This script is a modification of the original bash script created for 
+remote Textmate 2 which can be found at:
+[rmate](https://github.com/aurora/rmate)
 
 ### Quick install
 
