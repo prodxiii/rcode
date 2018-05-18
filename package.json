@@ -1,0 +1,7 @@
+{
+  "name": "rcode",
+  "version": "1.0.0",
+  "description": "Remote Visual Studio Code implemented as shell script",
+  "scripts": [ "rcode" ],
+  "install": "make install"
+}
